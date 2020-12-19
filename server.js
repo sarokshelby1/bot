@@ -25,7 +25,7 @@ bot.on("ready", () => console.log("🤖Ready Bot In Online🤖"));
 
 
 bot.on("message", message => {
-  if (message.content === "z!zangana") {
+  if (message.content === "1!zangana") {
     const embed = new Discord.RichEmbed().setColor("05FFEE")
       .setDescription(`
 
@@ -34,29 +34,29 @@ bot.on("message", message => {
 **🤖 The prefix for the bot is: ⇰ 〔 d! 〕 🤖**
 
 
-〔 **bot 🔒 〕⇰ 『 d!anti bot on  』
+〔 **bot 🔒 〕⇰ 『 1!anti bot on  』
 
-〔 bot 🔓 〕⇰ 『 d!anti bot off 』
+〔 bot 🔓 〕⇰ 『 1!anti bot off 』
 
-〔bot〕⇰  『 d!anti ban 1 -- 5 』
+〔bot〕⇰  『 1!anti ban 1 -- 5 』
 
-〔kick〕⇰ 『 d!anti ban 1 -- 5 』
+〔kick〕⇰ 『 1!anti ban 1 -- 5 』
 
-〔role〕⇰ 『 z!anti role 1 -- 5 』
+〔role〕⇰ 『 1!anti role 1 -- 5 』
 
-〔channel〕⇰『 d!anti channel 1 -- 5 』
+〔channel〕⇰『 1!anti channel 1 -- 5 』
 
-〔time〕⇰『 d!anti time  1 -- 5 』
+〔time〕⇰『 1!anti time  1 -- 5 』
 
-〔 📝 〕⇰『 d!about 』
+〔 📝 〕⇰『 1!about 』
 
-〔 ✨ 〕⇰『 d!invite   』
+〔 ✨ 〕⇰『 1!invite   』
 
-〔 ✨ 〕⇰『 d!bot 』**
+〔 ✨ 〕⇰『 1!bot 』**
 
 `)
-.setAuthor(`DARKNET SECURITY`, bot.user.avatarURL)
-.setFooter(`DARKNET SECURITY | Coded by , LUCIFER`, bot.user.avatarURL)
+.setAuthor(`SAROK`, bot.user.avatarURL)
+.setFooter(`sarok | Coded by , sarok`, bot.user.avatarURL)
 return message.channel.send(embed);
      
     message.channel.sendEmbed(embed);
@@ -70,20 +70,20 @@ bot.on("ready", () => {
 
 
 bot.on("message", message => {
-if (message.content === "E!about") {
+if (message.content === "1!about") {
 const embed = new Discord.RichEmbed().setColor("05FFEE")
 .setAuthor(message.guild.name, message.guild.iconURL)
 .setDescription(`
 𝗡𝗮𝗺𝗲
 
-**TIGER ZOMBIE**
+**SAROK SHELBY**
 
 OWNER 𝗜𝗗
 
-**639237715388268556**
+**698505756898623529**
 
 𝗢𝘄𝗻𝗲𝗿
-**!     「TZ」𓆩ŁUCIFER𓆪**
+**Sarok𓆪**
 
 
 
@@ -127,8 +127,8 @@ console.log(
 let statuses = [
 ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
 //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
-`E!help ♡ DARKNET,Tz LUCIFER`,
-`E!help ♡ DARKNET,Tz LUCIFER`,
+`1!help ♡ `,
+`1!help ♡`,
 ];
 
   setInterval(function() {
@@ -790,7 +790,7 @@ fs.writeFile("./antibot.json", JSON.stringify(antibots), err => {
 
 
   bot.on("message", message => {
-  if (message.content === "E!invite") {
+  if (message.content === "1!invite") {
     if (!message.channel.guild)
       return message.reply(
         "Please Do not type bot commands in bot private chat"
@@ -799,7 +799,7 @@ fs.writeFile("./antibot.json", JSON.stringify(antibots), err => {
       .setColor("05FFEE")
       .setTitle("=--> click Here To Add The bot to your server⚙ <--=")
       .setURL(
-        "https://discord.com/api/oauth2/authorize?client_id=789505513784213505&scope=bot&permissions=1"
+        "linke bot"
       ) // Type Your Link here after ''
       .setFooter("", message.author.avatarURL);
     message.channel.sendEmbed(embed);
@@ -822,10 +822,10 @@ bot.on('message', message => {
      .addField('``Users``' ,`[${bot.users.size}]` , true)
      .addField('``My Name``' , `[ ${bot.user.tag} ]` , true)
      .addField('``My ID``' , `[ ${bot.user.id} ]` , true)
-           .addField('``My Prefix``' , `[ E!
+           .addField('``My Prefix``' , `[ 1!
 ]` , true)
            .addField('``Bot Version``' , `[ v0.1 ]` , true)
-           .setFooter('Made By | ᗪᗩᖇKᑎᗴT')
+           .setFooter('Made By | SAROK')
   })
   }
   });
@@ -836,7 +836,7 @@ bot.on('message', message => {
 
 bot.on("message", message => {
 let ToOFaN
-if (message.content === "E!lock") {
+if (message.content === "1!lock") {
 if (!message.channel.guild)
 return message.reply("This command is only for servers");
 if (!message.member.hasPermission("MANAGE_MESSAGES"))
@@ -850,7 +850,7 @@ message.reply("**🔒 locked channel 🔒**");
 });
 }
 
-if (message.content === "E!unlock") {
+if (message.content === "1!unlock") {
 if (!message.channel.guild)
 return message.reply("** This command is only for servers**");
 if (!message.member.hasPermission("MANAGE_MESSAGES"))
@@ -923,21 +923,21 @@ bot.on('message', message => {
 ** {Secuirty Commands} **
 
 ◇►─────══─────◄◇**
-E!anti kick  {Number}
-E!anti ban  {Number} 
+1!anti kick  {Number}
+1!anti ban  {Number} 
 ◇►─────══─────◄◇
-E!anti role {Number} 
+1!anti role {Number} 
 ◇►─────══─────◄◇
-E!anti channel {Number} 
+1!anti channel {Number} 
 ◇►─────══─────◄◇
-E!anti time {Number}
+1!anti time {Number}
 ◇►─────══─────◄◇
-E!anti bot on 
-E!anti bot off  
+1!anti bot on 
+1!anti bot off  
 ◇►─────══─────◄◇
-E!stats
+1!stats
 ◇►─────══─────◄◇
-E!invite**
+1!invite**
 ◇►─────══─────◄◇
 `)
 					.setFooter(message.author.username, message.author.avatarURL)
@@ -958,31 +958,31 @@ E!invite**
 
 ♔╭━━─≪≫━━─╮♔
 **
-E!lock / E!unlok
+1!lock / E!unlok
 ♔╭━━─≪≫━━─╮♔
-E!verify
+1!verify
 ♔╭━━─≪≫━━─╮♔
-E!bot
+1!bot
 ♔╭━━─≪≫━━─╮♔
-E!id
+1!id
 ♔╭━━─≪≫━━─╮♔
-E!about
+1!about
 ♔╭━━─≪≫━━─╮♔
-E!bot voice
+1!bot voice
 ♔╭━━─≪≫━━─╮♔
-E!list bot
+1!list bot
 ♔╭━━─≪≫━━─╮♔
-E!view / z!unview
+1!view / z!unview
 ♔╭━━─≪≫━━─╮♔
-E!all bots
+1!all bots
 ♔╭━━─≪≫━━─╮♔
-E!server
+1!server
 ♔╭━━─≪≫━━─╮♔
-E!clear
+1!clear
 ♔╭━━─≪≫━━─╮♔
-E!avatar
+1!avatar
 ♔╭━━─≪≫━━─╮♔
-E!move all
+1!move all
 ♔╭━━─≪≫━━─╮♔**`)
           
 					.setFooter(message.author.username, message.author.avatarURL)
@@ -1023,9 +1023,9 @@ Auto  stop @.here
 
 
 bot.on('message', async message => {
-	if (message.content === 'E!verify') {
+	if (message.content === '1!verify') {
     let embed = new Discord.RichEmbed()
-    .setDescription('DARKNET SUCERITY✨ vote !!! ✅ ')
+    .setDescription('SAROK✨ vote !!! ✅ ')
     .setColor('05FFEE')
     .setTimestamp()
 		const reactmessage = await message.channel.send(embed);
@@ -1138,7 +1138,7 @@ bot.on("guildMemberAdd", member => {
 
   let embed = new Discord.RichEmbed()
     .setAuthor(`${member.user.tag}`, member.user.avatarURL)
-    .setColor("#36393e")
+    .setColor("RANDOM")
     .setDescription(` <@${member.user.id}> هاتە ناو سێرڤەر `)
     .setTimestamp();
   channel.send({ embed: embed });
@@ -1155,7 +1155,7 @@ bot.on("guildMemberRemove", member => {
 
   let embed = new Discord.RichEmbed()
     .setAuthor(`${member.user.tag}`, member.user.avatarURL)
-    .setColor("#36393e")
+    .setColor("RANDOM")
     .setDescription(` <@${member.user.id}>  دەرچو لە سێرڤەر  `)
     .setTimestamp();
   channel.send({ embed: embed });
@@ -1179,7 +1179,7 @@ bot.on("messageDelete", message => {
     .addField(" نامە  ", `${message.cleanContent}`)
     .addField("   لە چەناڵی  ", `<#${message.channel.id}>`)
     .addField("  لەلایەن ", `<@${message.author.id}> `)
-    .setColor("#36393e")
+    .setColor("RANDOM")
     .setTimestamp();
   channel.send({ embed: embed });
 });
@@ -1197,7 +1197,7 @@ bot.on("roleDelete", role => {
           let log = role.guild.channels.find("name", "logs");
           if (!log) return;
           let embed = new Discord.RichEmbed()
-            .setColor("#36393e")
+            .setColor("RANDOM")
             .setTitle("سڕینەوەی ڕۆڵ ")
             .addField(" ناوی ڕۆڵی سڕاوە   ", role.name, true)
             .addField("  ئایدی ڕۆڵ ", role.id, true)
@@ -1234,7 +1234,7 @@ bot.on("roleCreate", role => {
             .addField("  ئایدی ڕۆڵ ", role.id, true)
             .addField("  ڕەنگی ڕۆڵ ", role.hexColor, true)
             .addField(" لەلایەن ", exec, true)
-            .setColor("#36393e")
+            .setColor("RANDOM")
             .setTimestamp();
 
           log.send(embed).catch(e => {
@@ -1262,7 +1262,7 @@ bot.on("guildBanAdd", (guild, member) => {
          bot.fetchUser(member.id).then(myUser => {
             let embed = new Discord.RichEmbed()
               .setAuthor("باند کراو :  ")
-              .setColor("#36393e")
+              .setColor("RANDOM")
               .setThumbnail(myUser.avatarURL)
               .addField("   ", `**${myUser.username}**`, true)
               .addField("   ", `**${exec}**`, true)
@@ -1294,7 +1294,7 @@ bot.on("guildBanRemove", (guild, member) => {
           bot.fetchUser(member.id).then(myUser => {
             let embed = new Discord.RichEmbed()
               .setAuthor("     ")
-              .setColor("#36393e")
+              .setColor("RANDOM")
               .setThumbnail(myUser.avatarURL)
               .addField("   ", `**${myUser.username}**`, true)
               .addField("   ", `**${exec}**`, true)
@@ -1316,7 +1316,7 @@ bot.on("guildBanRemove", (guild, member) => {
 
 
 bot.on('message', message => {
-    var prefix = "E!"
+    var prefix = "1!"
 var args = message.content.split(" ").slice(1);    
 if(message.content.startsWith(prefix + 'id')) {
 var year = message.author.createdAt.getFullYear()
@@ -1378,7 +1378,7 @@ message.channel.send({embed});
 
  bot.on('message', message => {
 if (!message.guild) return;
-if (message.content === 'E!bot voice') {
+if (message.content === '1!bot voice') {
 if (message.member.voiceChannel) {
 message.member.voiceChannel.join()
 .then(connection => { 
@@ -1407,7 +1407,7 @@ bot.on("message", message => {
 
 
 bot.on('message', fantic => {
-if (fantic.content === "E!unview") {
+if (fantic.content === "1!unview") {
 if (!fantic.member.hasPermission("ADMINISTRATOR")) return fantic.react(":x:")
 fantic.channel.overwritePermissions(fantic.guild.id, {
 VIEW_CHANNEL: false
@@ -1417,7 +1417,7 @@ fantic.react("🔒")
 });
 
 bot.on('message', fantic => {
-if (fantic.content === "E!view") {
+if (fantic.content === "1!view") {
 if (!fantic.member.hasPermission("ADMINISTRATOR")) return fantic.react(":x:")
 fantic.channel.overwritePermissions(fantic.guild.id, {
 VIEW_CHANNEL: true
@@ -1475,7 +1475,7 @@ tell us the reason why you kicked our bot🤖`
 
 bot.on('message', message => {
 if(!message.channel.guild) return;
-var prefix = "E!";//// بە دڵی خۆت پڕیفێکسێ بنوسە /// set prefix
+var prefix = "1!";//// بە دڵی خۆت پڕیفێکسێ بنوسە /// set prefix
 if(message.content.startsWith(prefix + 'all bots')) {
 
 
@@ -1500,7 +1500,7 @@ message.channel.send(embed)
 
 
 bot.on("message", message => {
-if (message.content.startsWith("E!server")) {
+if (message.content.startsWith("1!server")) {
 if (!message.channel.guild)
 return message.channel.send(` | This Command is used only in servers!`);
 const millis = new Date().getTime() - message.guild.createdAt.getTime();
@@ -1542,7 +1542,7 @@ message.channel.sendEmbed(embed);
 
 
 bot.on("message", message => {
-if (message.content.split(" ")[0].toLowerCase() === "E!clear") {
+if (message.content.split(" ")[0].toLowerCase() === "1!clear") {
 const word = message.content;
 const number = word.slice(7, word.length);
 const int = Number(number);
@@ -1601,7 +1601,7 @@ bot.on("message", message => {
 
 
 bot.on("message", message => {
-if (message.content.startsWith("E!move all")) {
+if (message.content.startsWith("1!move all")) {
 if (!message.guild.member(bot.user).hasPermission("SEND_MESSAGES"))
 return message.reply("```You don't have enough permissions```")
 if (message.member.voiceChannel == null)
